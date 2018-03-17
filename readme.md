@@ -1,6 +1,7 @@
 # Using Laravel With Docker For Web Development
 
 1. Clone this project `git clone https://github.com/hamzahjamad/laravel-docker.git`
+1. Change directory to that project `cd laravel-docker`
 1. Clone laravel 5.5 project by using `git clone -b 5.5 https://github.com/laravel/laravel.git src`
 1. Copy mysql.env.example to mysql.env `cp mysql.env.example mysql.env`
 1. Run `docker-compose up -d`  , it will download the images and create the container
